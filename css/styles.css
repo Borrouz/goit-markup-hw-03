@@ -31,21 +31,41 @@ a {
 /* header */
 .header-container{
     display: flex;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .container {
-padding: 0 15px;
-margin: 0 auto;
-max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap ;
+    margin: auto;
 }
 
-
+.list-container {
+    margin-bottom: 94px;
+}
 
 body {
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
 }
 
-
+.div-container {
+    padding-top: 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .btn{
     font-family: inherit;
     background-color: #F5F4FA;
@@ -56,6 +76,7 @@ body {
     letter-spacing: 0.03em;
     border: none;
     color: var(--primary-text-color);
+    padding: 6px 22px;
 }
 
 .btn:hover {
@@ -95,10 +116,10 @@ body {
     color: var(--hover-text-color);
 }
 
-/* .list {
-    list-style: none;
-} */
+.main-section-list{
+    max-width: 270px;
 
+}
 .web {
     color: var(--hover-text-color);
 
@@ -131,7 +152,10 @@ body {
 .header-item:first-of-type {
     padding-left: 0;
 }
+.container-our-work {
+    display: flex;
 
+}
 .header-adress-link {
     display: block;
     padding-top: 32px;
@@ -192,7 +216,10 @@ body {
     letter-spacing: 0.03em;
 }
 
-
+.main-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .main-section-title {
     color: var(--primary-text-color);
@@ -208,6 +235,10 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.secondary-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
 .team-list-title {
 font-weight: 500;
@@ -216,13 +247,17 @@ line-height: 1.9;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
-}
 
+}
+/* .our-work {
+    background-color: #F5F4FA;
+} */
 .team-list {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 94px;
 }
 
 .team-list-text {
@@ -257,6 +292,9 @@ color: var(--primary-text-color);
     color: #FFFFFF60;
 }
 
+.our-team {
+    background-color: #F5F4FA;;
+}
 .footer-studio {
     color: #FFFFFF;
     font-weight: 700;
@@ -279,4 +317,14 @@ color: var(--primary-text-color);
 
 .active {
     color: var(--hover-text-color);
+}
+
+
+.list-portfolio {
+    gap: 8px;
+    padding-top: 94px;
+}
+
+.main-list {
+    padding-top: 50px;
 }

@@ -16,28 +16,31 @@
   </head>
   <body>
     <header class="header">
-      <nav>
+      <div class="container header-container">
         <a class="logo link" href="index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
-        >
-        <ul class="header-nav list">
-          <li><a class="link" href="index.html">Студия</a></li>
-          <li><a class="link active" href="portfolio.html ">Портфолио</a></li>
-          <li><a class="link" href="contacts">Контакты</a></li>
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
+        <nav class="flex">
+          <ul class="header-nav list">
+            <li><a class="link" href="index.html">Студия</a></li>
+            <li><a class="link active" href="portfolio.html ">Портфолио</a></li>
+            <li><a class="link" href="contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-adress list">
+          <li>
+            <a class="link header-adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li><a class="link header-adress-link" href="tel:+380991111111">+38096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="header-adress list">
-        <li>
-          <a class="link header-adress-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a class="link header-adress-link" href="tel:+380991111111">+38096 111 11 11</a></li>
-      </ul>
+      </div>
+      
     </header>
     <main>
       <section>
-        <ul class="list">
+        <ul class="list-portfolio container">
           <li>
             <button class="btn" type="button">Все</button>
           </li>
@@ -54,7 +57,7 @@
             <button class="btn" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="main-list list">
+        <ul class="main-list  container">
           <li>
             <img width="370" src="images/img8.jpg" alt="технокряк" />
             <h2 class="main-list-title">Технокряк</h2>
@@ -108,20 +111,22 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo link" href="index.html">
-        <span class="web">Web</span><span class="footer-studio">Studio</span>
-      </a>
-      <address class="adress">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="list footer-adress">
-          <li>
-            <a class="link footer-adress-link" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li>
-            <a class="link footer-adress-link" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="div-container">
+        <a class="logo link" href="index.html">
+          <span class="web">Web</span><span class="footer-studio">Studio</span>
+        </a>
+        <address class="adress">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="list footer-adress">
+            <li>
+              <a class="link footer-adress-link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li>
+              <a class="link footer-adress-link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
