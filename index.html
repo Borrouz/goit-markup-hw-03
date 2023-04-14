@@ -1,166 +1,107 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container flex-el">
-        <a class="logo" href="webstudio"
-        ><span class="web">Web</span><span class="studio">Studio</span></a
-      >
-      <nav>
-        <ul class="header-list">
-          <li class="header-item"><a class="active header-link link" href="./index.html">Студия</a></li>
-          <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-          <li class="header-item"><a class="header-link link" href="contacts">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="header-adress">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header-flex-wrap container">
+        <nav class="header-nav">
+            <a class="header-nav-logo link">Web<span class="header-studio-span">Studio</span></a>
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a class="header-nav-link link" href="./index.html">Studio</a></li>
+                <li class="header-nav-item"><a class="header-nav-link link" href="./portfolio.html">Portfolio</a></li>
+                <li class="header-nav-item"><a class="header-nav-link link" href="">Contacts</a></li>
+            </ul>
+         </nav>
+    <address class="our-adress">
+        <ul class="header-adress-list list">
+            <li class="header-adress-item"><a class="header-adress-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-adress-item"><a class="header-adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>  
+    </address>
+</div>
+</header>
+<main>
+    <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
+    </section>
+    <section>
+        <h2 hidden class="visually-hidden">Our Road</h2>
+    <ul class="list header-nav" >
         <li>
-          <a class="header-adress-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+           <h3 class="our-services">Strategy</h3>
+           <p class="our-services-description">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
         </li>
-        <li class="header-adress-item"><a class="header-adress-link link" href="tel:+380991111111">+38096 111 11 11</a></li>
-      </ul>
-    </div>
-    </header>
-    <main>
-      <section class="start-section section">
-        <div class="container">
-          <h1 class="title">эффективные решения для вашего бизнеса</h1>
-          <button class="main-btn" type="button">Заказать услугу</button>
-        </div>
-      </section>
-      <section class="main-section section"> 
-        <div class="container">
-        <ul class="flex-el">
-          <li class="main-section-item">
-            <h2 class="main-section-title">внимание к деталям</h2>
-            <p class="main-section-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="main-section-item">
-            <h2 class="main-section-title">пунктуальность</h2>
-            <p class="main-section-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="main-section-item">
-            <h2 class="main-section-title">планирование</h2>
-            <p class="main-section-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="main-section-item">
-            <h2 class="main-section-title">современные технолоии</h2>
-            <p class="main-section-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </div>
-      </section>
-      <section class="our-work section">
-        <div class="container">
-        <h2 class="secondary-title">Чем мы занимаемся</h2>
-          <ul class="flex-el">
-            <li>
-              <img
-                width="370"
-                src="images/img3.jpg"
-                alt="печатает код на компьютере"
-              />
-            </li>
-            <li>
-              <img
-                width="370"
-                src="images/img1.jpg"
-                alt="Адаптирует сайт под мобильное устройство"
-              />
-            </li>
-            <li>
-              <img
-                width="370"
-                src="images/img2.jpg"
-                alt="Графическая разроботка"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="our-team section">
-        <div class="container">
-          <h2 class="secondary-title">Наша команда</h2>
-        <ul class="flex-el">
-          <li class="team-list">
-            <img width="270" src="images/img4.jpg" alt="Игорь Демьяненко" /> 
-            <div class="team-wrapper">
-              <h3 class="team-list-title">Игорь Демьяненко</h3>
-              <p class="team-list-text">Product Designer</p>
-            </div>
-
-          </li>
-          <li class="team-list">
-            <img width="270" src="images/img5.jpg" alt="Ольга Репина" />
-            <div class="team-wrapper">
-              <h3 class="team-list-title">Ольга Репина</h3>
-              <p class="team-list-text">Frontend Developer<p>
-            </div>
-          </li>
-          <li class="team-list">
-            <img width="270" src="images/img6.jpg" alt="Николай Тарасов" />
-            <div class="team-wrapper">
-              <h3 class="team-list-title">Николай Тарасов</h3>
-              <p class="team-list-text">Marketing<p>
-            </div>
-          </li>
-          <li class="team-list">
-            <img width="270" src="images/img7.jpg" alt="Михаил Ермаков" />
-            <div class="team-wrapper">
-              <h3 class="team-list-title">Михаил Ермаков</h3>
-              <p class="team-list-text">UI Designer<p>
-            </div>
-          </li>
-        </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <a class="logo footer-logo" href="webstudio"
-        ><span class="web">Web</span
-        ><span class="footer-studio">Studio</span></a
-      >
-      <address class="adress">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="list footer-adress">
-          <li class="footer-adress-list">
-            <a class="footer-adress-link" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="footer-adress-list">
-            <a class="footer-adress-link" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-      </div>
-    </footer>
-  </body>
+        <li>
+           <h3 class="our-services">Punctuality</h3>
+           <p class="our-services-description">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+        </li>
+        <li>
+           <h3 class="our-services">Diligence</h3>
+           <p class="our-services-description">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+        </li>   
+        <li>
+           <h3 class="our-services">Technologies</h3>
+           <p class="our-services-description">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+        </li>
+    </ul>
+    </section>
+<section>
+    <h2 class="section-title">What are we doing</h2>
+    <ul class="list">
+        <li>
+            <img width="360" src="./images/img10.jpg" alt="компьютер">
+        </li>
+        <li>
+            <img width="360" src="./images/img11.jpg" alt="мессенджеры на телефоне">
+        </li>
+        <li>
+            <img width="360" src="./images/img12.jpg" alt="Графическая разроботка">
+        </li>
+    </ul>
+</section>
+<section class="our-team">
+    <h2 class="section-title">Our Team</h2>
+    <ul class="our-team-list list">
+        <li class="our-team-item">
+            <img class="our-photo" width="264" src="./images/man1.jpg" alt="Mark Guerrero">
+            <h3 class="our-services">Mark Guerrero</h3>
+            <p class="our-services-description">Product Designer</p>
+       </li>
+        <li class="our-team-item">
+            <img class="our-photo" width="264" src="./images/man2.jpg" alt="Tom Ford">
+            <h3 class="our-services">Tom Ford</h3>
+            <p class="our-services-description">Frontend Developer</p>
+        </li>
+        <li class="our-team-item">
+            <img class="our-photo" width="264" src="./images/woman.jpg" alt="Camila Garcia">
+            <h3 class="our-services">Camila Garcia</h3>
+            <p class="our-services-description">Marketing</p>
+        </li>
+        <li class="our-team-item">
+            <img class="our-photo" width="264" src="./images/man3.jpg" alt="Daniel Wilson">
+            <h3 class="our-services">Daniel Wilson</h3>
+            <p class="our-services-description">UI Designer</p>
+        </li>
+    </ul>
+</section>
+</main>
+<footer class="footer">
+    <a class="footer-logo link">Web<span class="footer-logo-span">Studio</span>></a>
+    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+</footer>
+</body>
 </html>
