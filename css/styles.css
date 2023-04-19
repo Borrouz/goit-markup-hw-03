@@ -278,12 +278,13 @@ body {
 	width: calc((100% - 48px) / 3);
 }
 .main-section-menu {
-	padding: 96px 0 120px;
+	padding-top: 96px;
+	padding-bottom: 120px;
 }
 .main-btn{
 	font-family: inherit;
 	background-color: var(--color-cloud);
-	color: var(--color-iris);
+	border: var(--color-iris);
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -300,7 +301,7 @@ body {
 .main-btn:focus {
 	background-color: var(--color-ocean);
 	color: #ffffff;
-	border: 1px solid;
+	border: 1px solid transparent;
 }
 	/* Section - 2 */
 
