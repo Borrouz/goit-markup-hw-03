@@ -127,7 +127,7 @@ body {
 	display: flex;
 	align-content: center;
 	gap: 40px;
-	padding: 24px 0;
+	
 }
 
 .header-adress-link:hover, 
@@ -139,7 +139,7 @@ body {
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
-	padding: 0 15px 0 15px;
+	padding: 24px 15px 24px 15px;
 }
 .header-nav{
 	display: flex;
@@ -149,7 +149,6 @@ body {
 .header-nav-list {
 	display: flex;
 	gap: 40px;
-	padding: 24px 0;
 	margin-left: 76px;
 }
 
@@ -162,7 +161,6 @@ body {
 	text-transform: uppercase;
 	color: var(--color-iris);
 	margin-right: 76px;
-	padding: 24px 0;
 }
 
 
