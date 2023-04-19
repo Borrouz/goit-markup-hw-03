@@ -59,7 +59,7 @@ a {
 .container {
 	max-width: 1158px;
 	margin: 0 auto;
-	padding: 0 15px 0 15px;
+
 }
 .link {
 	text-decoration: none;
@@ -116,6 +116,10 @@ body {
 	color: var(--color-slate);
 
 }
+.header {
+	border-bottom: 1px solid #e7e9fc;
+	margin-bottom: 18px;
+}
 .our-adress {
 	margin-left: auto;
 }
@@ -131,11 +135,10 @@ body {
 }
 
 .header-flex-wrap {
-	margin-bottom: 18px;
 	display: flex;
 	align-items: center;
-	border-bottom: 1px solid #e7e9fc;
-	padding: 24px 0 24px;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
 }
 .header-nav{
 	display: flex;
