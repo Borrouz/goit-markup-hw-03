@@ -21,6 +21,20 @@ a {
 button{
 	cursor: pointer;
 	font-family: inherit;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	display: block;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
 }
 
 
@@ -42,8 +56,13 @@ button{
 	--color-white: #ffffff;
 	--color-dairy: #fcfcfc;
 }
+.container {
+	max-width: 1128px;
+	margin: 0 auto;
+}
 .link {
 	text-decoration: none;
+	color: inherit;
 }
 
 .our-adress {
@@ -55,7 +74,9 @@ button{
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--color-grey);
-	letter-spacing: 0.02em
+	letter-spacing: 0.02em;
+	padding-bottom: 72px;
+
 }
 .list {
 	list-style: none;
@@ -79,6 +100,10 @@ body {
 	clip: rect(0 0 0 0);  
 	overflow: hidden;
 }
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
 /* main Document */
 /* Header */
 .header-adress-link {
@@ -90,11 +115,13 @@ body {
 	color: var(--color-slate);
 
 }
-
+.our-adress {
+	margin-left: auto;
+}
 .header-adress-list {
 	display: flex;
 	align-content: center;
-	margin-left: auto;
+	gap: 40px;
 }
 
 .header-adress-link:hover, 
@@ -103,7 +130,7 @@ body {
 }
 
 .header-flex-wrap {
-	
+	margin-bottom: 18px;
 	display: flex;
 	align-items: center;
 }
@@ -148,15 +175,16 @@ body {
 }
 
 /* Main */
-.hero-btn {
-	background-color: var(--color-iris);
-	letter-spacing: 0.04em;
-}
+
 
 .hero {
 	background-color: var(--color-grey);
+	padding-bottom: 188px;
 }
 .hero-btn {
+	text-align: center;
+	background-color: var(--color-iris);
+	letter-spacing: 0.04em;
 	font-family: var(--primery-font);
 	font-weight: 500;
 	font-size: 16px;
@@ -164,6 +192,9 @@ body {
 	letter-spacing: 0.04em;
 	color: var(--color-white);
 	cursor: pointer;
+	margin: auto;
+	min-width: 169px;
+	padding: 16px 32px;
 }
 
 .hero-btn:hover,
@@ -171,17 +202,42 @@ body {
 	background-color: var(--color-ocean);
 }
 .hero-title {
+	margin: auto;
+	width: 496px;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: var(--color-white);
+	padding-top: 188px;
+	padding-bottom: 48px;
 
 }
 
 .our-team-item {
 	background-color: #FFFFFF;
+	text-align: center;
 }
+
+.main-list-services{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	padding-top: 102px;
+}
+.main-link-services {
+	width: 264px;
+}
+.section-doing-list {
+	display: flex;
+	gap: 24px;
+}
+.our-team-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
 /* Portfolio */
 .main-btn{
 	font-family: inherit;
@@ -208,12 +264,15 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--color-navy-blue);
+	padding-top: 32px;
+	padding-bottom: 8px;
 
 }
 .our-services-description{
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--color-slate);
+	padding-bottom: 32px;
 }
 
 	/* section - 4 */
@@ -224,6 +283,11 @@ body {
 /* Footer */
 .footer{
 	background-color: #2e2f42;
+	padding-bottom: 100px;
+	padding-top: 101px;
+}
+.footer-text {
+	width: 264px;
 }
 
 .footer-logo {
@@ -234,6 +298,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--color-iris);
+	padding-bottom: 17px;
 }
 .footer-logo-span {
 	color: var(--color-cloud);
