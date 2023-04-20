@@ -116,7 +116,7 @@ body {
 
 }
 .header {
-	border-bottom: 1px solid #e7e9fc;
+	border-bottom: 1px solid var(--color-cornflower);
 	margin-bottom: 18px;
 }
 .our-adress {
@@ -175,11 +175,11 @@ body {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-	color: #404bbf;
+	color: var(--color-ocean);
 }
 
 .header-studio-span {
-	color: #2e2f42;
+	color: var(--color-navy-blue);
 }
 
 /* Main */
@@ -191,7 +191,7 @@ body {
 }
 .hero-btn {
 	text-align: center;
-	background-color: #4d5ae5;
+	background-color: var(--color-iris);
 	letter-spacing: 0.04em;
 	font-family: var(--primery-font);
 	font-weight: 500;
@@ -226,7 +226,7 @@ body {
 }
 
 .our-team-item {
-	background-color: #FFFFFF;
+	background-color: var(--color-white);
 	text-align: center;
 	width: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
@@ -298,7 +298,7 @@ body {
 .main-btn:hover,
 .main-btn:focus {
 	background-color: var(--color-ocean);
-	color: #ffffff;
+	color: var(--color-white);
 	border: 1px solid transparent;
 }
 	/* Section - 2 */
@@ -324,14 +324,14 @@ body {
 }
 .our-team-title {
 	padding: 32px 16px;
-	border: 1px solid #e7e9fc;
+	border: 1px solid var(--color-cornflower);
 	border-top: none;
 }
 
 
 /* Footer */
 .footer{
-	background-color: #2e2f42;
+	background-color: var(--color-grey);
 	padding: 100px 0;
 }
 .footer-text {
