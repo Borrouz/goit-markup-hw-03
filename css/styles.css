@@ -233,7 +233,10 @@ body {
 }
 .section-doing-item{
 	width: calc((100% - 48px) / 3);
-	padding-bottom: 120px;
+	
+}
+.section-doing{
+	margin-bottom: 120px;
 }
 .main-list-services{
 	display: flex;
